@@ -86,18 +86,37 @@ body {
 
 /* ****** */ 
 
+/* width */
+::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #9a99ff;
+}
 .timeline-parcours {
   /* width:960px; */
   height:auto;
   min-height:10px;
   margin:100px auto;
-  width: 5000px;
+  /* width: 5000px; */
+  overflow-y: hidden;
+
 }
 .container-info  {
-  /* width:960px; */
   margin:0 auto;
   height:auto;
   min-height:187px;
+  width: 4750px;
 }
 .timeline-section-tl {
   width: 150px;
@@ -110,18 +129,21 @@ body {
   width:226px;
   height:auto;
   min-height:10px;
-  background-color:white;
+  background-color:rgb(0, 0, 0);
   padding:5px;
   border-radius:10px;
   display:inline-block;
   margin:0px 1px;
+  background-image: url("https://static.wixstatic.com/media/d34d34_69bad9568ea4404e8151f9fde47937a5~mv2.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .fleche-bloc {
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 15px 15px 0 15px;
-  border-color: #ffffff transparent transparent transparent;
+  border-color: #000000 transparent transparent transparent;
   margin:auto;
 }
 .parcours-box {
@@ -133,7 +155,7 @@ transition: all 1s ease;
 }
 
 .container-time-line {
-  width:980px;
+  width:4000px;
   /* margin:auto; */
 }
 .time-line-parcours {
@@ -145,7 +167,7 @@ transition: all 1s ease;
 .timeline-indicator {
   width:0px;
   height:10px;
-  background-color:rgb(120, 131, 208);
+  background-color:#fe9935;
   -webkit-transition: all 100ms ease;
 -moz-transition: all 1s ease;
 -ms-transition: all 1s ease;
@@ -157,6 +179,7 @@ transition: all 1s ease;
   height:20px;
   border-radius:50%;
   background-color:rgb(85, 69, 69);
+  display: inline-block;
   margin:auto;
    -webkit-transition: all 100ms ease;
 -moz-transition: all 500ms ease;
@@ -166,6 +189,7 @@ transition: all 500ms ease;
 }
 .container-bulle {
   margin-top:-15px;
+  width: 4750px;
 }
 /* animation classe */ 
 
@@ -199,5 +223,14 @@ transition: all 100ms ease;
 -ms-transition: all 1s ease;
 -o-transition: all 1s ease;
 transition: all 1s ease;
+}
+
+h3 {
+  margin-top: 5px;
+  margin-left: 40px;
+  background-color: #986699;
+  border-radius: 25px;
+  text-align: center;
+  padding: 1px;
 }
 

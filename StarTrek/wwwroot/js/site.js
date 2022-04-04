@@ -11,7 +11,7 @@ $( document ).ready(function() {
      $(".round1").css("background-color","#cc6698");
      $(".parcours-active").removeClass("parcours-active");
      $(".parc1").addClass("parcours-active");
-     $(".timeline-indicator").css("width","75");
+     $(".timeline-indicator").css("width","5");
   })
   
   $(".round2").on("click",function(){
@@ -20,7 +20,7 @@ $( document ).ready(function() {
      $(".round2").css("background-color","#cc6698");
      $(".parcours-active").removeClass("parcours-active");
      $(".parc2").addClass("parcours-active");
-     $(".timeline-indicator").css("width","225");
+     $(".timeline-indicator").css("width","160");
   })
   
   $(".round3").on("click",function(){
@@ -30,7 +30,7 @@ $( document ).ready(function() {
      $(".round3").css("background-color","#cc6698");
      $(".parcours-active").removeClass("parcours-active");
      $(".parc3").addClass("parcours-active");
-     $(".timeline-indicator").css("width","375");
+     $(".timeline-indicator").css("width","320");
   })
   
   $(".round4").on("click",function(){
@@ -41,7 +41,7 @@ $( document ).ready(function() {
      $(".round4").css("background-color","#cc6698");
      $(".parcours-active").removeClass("parcours-active");
      $(".parc4").addClass("parcours-active");
-     $(".timeline-indicator").css("width","530");
+     $(".timeline-indicator").css("width","470");
   })
   $(".round5").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -52,7 +52,7 @@ $( document ).ready(function() {
     $(".round5").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc5").addClass("parcours-active");
-    $(".timeline-indicator").css("width","700");
+    $(".timeline-indicator").css("width","620");
   })
   $(".round6").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -64,7 +64,7 @@ $( document ).ready(function() {
     $(".round6").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc6").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","780");
   })
   $(".round7").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -77,7 +77,7 @@ $( document ).ready(function() {
     $(".round7").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc7").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","930");
   })
   $(".round8").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -91,7 +91,7 @@ $( document ).ready(function() {
     $(".round8").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc8").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","1090");
   })
   $(".round9").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -106,7 +106,7 @@ $( document ).ready(function() {
     $(".round9").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc9").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","1210");
   })
   $(".round10").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -122,7 +122,7 @@ $( document ).ready(function() {
     $(".round10").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc10").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","1450");
   })
   $(".round11").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -139,7 +139,7 @@ $( document ).ready(function() {
     $(".round11").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc11").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","1600");
   })
   $(".round12").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -157,7 +157,7 @@ $( document ).ready(function() {
     $(".round12").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc12").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","1750");
   })
   $(".round13").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -176,7 +176,7 @@ $( document ).ready(function() {
     $(".round13").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc13").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","1900");
   })
   $(".round14").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -196,7 +196,7 @@ $( document ).ready(function() {
     $(".round14").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc14").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","2050");
   })
   $(".round15").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -217,7 +217,7 @@ $( document ).ready(function() {
     $(".round15").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc15").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","2200");
   })
   $(".round16").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -239,7 +239,7 @@ $( document ).ready(function() {
     $(".round16").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc16").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","2350");
   })
   $(".round17").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -262,7 +262,7 @@ $( document ).ready(function() {
     $(".round17").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc17").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","2500");
   })
   $(".round18").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -286,7 +286,7 @@ $( document ).ready(function() {
     $(".round18").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc18").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","2650");
   })
   $(".round19").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -311,7 +311,7 @@ $( document ).ready(function() {
     $(".round19").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc19").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","2800");
   })
   $(".round20").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -337,7 +337,7 @@ $( document ).ready(function() {
     $(".round20").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc20").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","2950");
   })
   $(".round21").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -364,7 +364,7 @@ $( document ).ready(function() {
     $(".round21").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc21").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","3100");
   })
   $(".round22").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -392,7 +392,7 @@ $( document ).ready(function() {
     $(".round22").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc22").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","3250");
   })
   $(".round23").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -421,7 +421,7 @@ $( document ).ready(function() {
     $(".round23").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc23").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","3400");
   })
   $(".round24").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -451,7 +451,7 @@ $( document ).ready(function() {
     $(".round24").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc24").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","3550");
   })
   $(".round25").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -482,7 +482,7 @@ $( document ).ready(function() {
     $(".round25").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc25").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","3700");
   })
   $(".round26").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -514,7 +514,7 @@ $( document ).ready(function() {
     $(".round26").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc26").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","3850");
   })
   $(".round27").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -547,7 +547,7 @@ $( document ).ready(function() {
     $(".round27").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc27").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","4000");
   })
   $(".round28").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -581,7 +581,7 @@ $( document ).ready(function() {
     $(".round28").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc28").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","4150");
   })
   $(".round29").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -616,7 +616,7 @@ $( document ).ready(function() {
     $(".round29").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc29").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","4300");
   })
   $(".round30").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -652,7 +652,7 @@ $( document ).ready(function() {
     $(".round30").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc30").addClass("parcours-active");
-    $(".timeline-indicator").css("width","850");
+    $(".timeline-indicator").css("width","4450");
   })
   
 });
