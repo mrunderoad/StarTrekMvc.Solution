@@ -7,6 +7,25 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+.navbar {
+  /* background-color: #986699; */
+  display: flex;
+  position: relative;
+  margin: 32px 0;
+  overflow: visible;
+  border-radius: 14px;
+  height: 32px;
+  background-color: #c8f;
+  border-right: 28px solid #94f;
+  border-left: 28px solid #94f;
+  font-family: 'Acme', sans-serif;
+  font-family: 'Antonio', sans-serif;
+}
+.theEnd {
+  background-color: black;
+  color: #fe9935
+}
+
 /* Provide sufficient contrast against white background */
 a {
   color: #d60303;
@@ -61,6 +80,8 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  font-family: 'Acme', sans-serif;
+  font-family: 'Antonio', sans-serif;
 }
 .footer {
   position: absolute;
@@ -77,8 +98,9 @@ body {
   margin:0;
   padding:0;
   width:100%;
-  background:url(https://cdn.pixabay.com/photo/2019/12/25/02/56/universe-4717740__340.jpg);
+  /* background:url(https://www.pixelstalk.net/wp-content/uploads/images3/Star-Trek-Logo-Desktop-Backgrounds-1.png); */
   background-size:cover;
+  background-repeat: no-repeat;
 }
 /* html {
   width:100%;
@@ -97,7 +119,7 @@ body {
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background-color: #986699;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
@@ -110,13 +132,13 @@ body {
   margin:100px auto;
   /* width: 5000px; */
   overflow-y: hidden;
-
+  margin-top: 60px;
 }
 .container-info  {
   margin:0 auto;
   height:auto;
   min-height:187px;
-  width: 4750px;
+  width: 7725px;
 }
 .timeline-section-tl {
   width: 150px;
@@ -126,7 +148,7 @@ body {
   display:inline-block;
 }
 .infobox {
-  width:226px;
+  width:300px;
   height:auto;
   min-height:10px;
   background-color:rgb(0, 0, 0);
@@ -134,17 +156,20 @@ body {
   border-radius:10px;
   display:inline-block;
   margin:0px 1px;
-  background-image: url("https://static.wixstatic.com/media/d34d34_69bad9568ea4404e8151f9fde47937a5~mv2.gif");
-  background-size: cover;
+  /* background-image: url("https://cdn.wallpapersafari.com/69/28/wnyVST.jpg"); */
+  background-image: url("https://cdn.wallpapersafari.com/0/47/j0wvM1.gif");
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: top;
 }
 .fleche-bloc {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 15px 15px 0 15px;
+  border-width: 11px 11px 5px 11px;
   border-color: #000000 transparent transparent transparent;
-  margin:auto;
+  margin-left: 4px;
+  margin-top: -4px;
 }
 .parcours-box {
   opacity:0;
@@ -155,7 +180,7 @@ transition: all 1s ease;
 }
 
 .container-time-line {
-  width:4000px;
+  width: 7725px;
   /* margin:auto; */
 }
 .time-line-parcours {
@@ -175,10 +200,14 @@ transition: all 1s ease;
 transition: all 1s ease;
 }
 .tl-round {
-  width:20px;
-  height:20px;
+  width:30px;
+  height:30px; /* WIDTH AND HEIGHT WERE AT 20 */
   border-radius:50%;
   background-color:rgb(85, 69, 69);
+  border-color: #000000;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsC11bVPg-h8xKI76LNLHF0_5eX25NugVLaQ&usqp=CAU");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: inline-block;
   margin:auto;
    -webkit-transition: all 100ms ease;
@@ -188,8 +217,8 @@ transition: all 1s ease;
 transition: all 500ms ease;
 }
 .container-bulle {
-  margin-top:-15px;
-  width: 4750px;
+  margin-top:-20px;
+  width: 7725px;
 }
 /* animation classe */ 
 

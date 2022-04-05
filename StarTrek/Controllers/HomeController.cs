@@ -20,7 +20,7 @@ namespace StarTrek.Controllers
 
         public IActionResult Index()
         {   
-            // var trekInfo = Trek.GetInfo();
+            // var trekInfo = TrekEvent.GetInfo();
             return View();
         }
 
