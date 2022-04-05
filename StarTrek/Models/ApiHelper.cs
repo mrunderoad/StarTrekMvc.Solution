@@ -8,15 +8,15 @@ namespace StarTrek.Models
     public static async Task<string> GetAll()
     {
       RestClient client = new RestClient("http://localhost:5002/api");
-      RestRequest request = new RestRequest($"TrekEvent", Method.GET);
+      RestRequest request = new RestRequest($"trekevents", Method.GET);
       var response = await client.ExecuteTaskAsync(request);
       return response.Content;
     }
 
-    public static async Task<string> GetEvent(int id)
+    public static async Task<string> Get(int id)
     {
       RestClient client = new RestClient("http://localhost:5002/api");
-      RestRequest request = new RestRequest($"trekevent/{id}", Method.GET);
+      RestRequest request = new RestRequest($"trekevents/{id}", Method.GET);
       var response = await client.ExecuteTaskAsync(request);
       return response.Content;
     }

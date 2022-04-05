@@ -20,5 +20,13 @@ namespace StarTrek.Models
       List<TrekEvent> trekInfo = JsonConvert.DeserializeObject<List<TrekEvent>>(jsonResponse.ToString());
       return trekInfo;
     }
+    public static TrekEvent GetDetails(int id)
+    {
+      var apiCallTask = ApiHelper.Get(id);
+      var result = apiCallTask.Result;
+      JObject jsonResponse = JsonConvert.DeserializeObject<JObject>(result);
+      TrekEvent trek = JsonConvert.DeserializeObject<TrekEvent>(jsonResponse.ToString());
+      return trek;
+    }
   } 
 }
