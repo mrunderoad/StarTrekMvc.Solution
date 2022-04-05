@@ -271,3 +271,10 @@ p {
   border-radius: 15px;
 }
 
+.round1:hover, .round2:hover, .round3:hover, .round4:hover, .round5:hover, .round6:hover, .round7:hover, .round8:hover, .round9:hover, .round10:hover, .round11:hover, .round12:hover, .round13:hover, .round14:hover, .round15:hover, .round16:hover, .round17:hover, .round18:hover, .round19:hover, .round20:hover, .round21:hover, .round22:hover, .round23:hover, .round24:hover, .round25:hover, .round26:hover, .round27:hover, .round28:hover, .round29:hover, .round30:hover, .round31:hover, .round32:hover, .round33:hover, .round34:hover, .round35:hover, .round36:hover, .round37:hover, .round38:hover, .round39:hover, .round40:hover, .round41:hover, .round42:hover, .round43:hover, .round44:hover, .round45:hover, .round46:hover, .round47:hover, .round48:hover, .round49:hover, .round50:hover {
+  transform: rotate(360deg);
+  /* width: 35px;
+  height: 35px; */
+  margin-bottom: 0px;
+}
+

@@ -23,7 +23,7 @@ namespace StarTrek.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Characters()
         {
             return View();
         }

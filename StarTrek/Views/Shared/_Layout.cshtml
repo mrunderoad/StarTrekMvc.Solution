@@ -1,6 +1,9 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXVUbn81NNM_-4zneXiyBfuUVGPTg8IIWNtXuWslKmD0XbOfQi2mum8LEMR_8HTgoWstw&usqp=CAU" />
+
+    <link rel="icon" href="https://flyclipart.com/thumb2/voyager-badge-icon-355115.png" >
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Acme&family=Antonio:wght@200&display=swap" rel="stylesheet">
@@ -10,13 +13,12 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <script src="js/jquery-3.6.0.js"></script>
-    <link rel="icon" href="~/favicon/favicon.ico" >
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index" >StarTrek Timeline</a>
+                <h4 class="navbar-brand" asp-area="" asp-controller="" asp-action="" >StarTrek Timeline</h4>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -27,7 +29,10 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</span></a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Characters">Characters</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="TrekEvents" asp-action="Index">Timeline</span></a>
                         </li>
                     </ul>
                 </div>
