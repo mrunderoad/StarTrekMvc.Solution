@@ -1,9 +1,14 @@
-﻿@{
+@{
     ViewData["Title"] = "Home Page";
 }
 
-@Html.ActionLink("Timeline", "Index", "TrekEvents")
-      @* <div class="timeline-parcours">
+@foreach (TrekEvent trekEvent in Model)
+{
+   <p>@Model.Description</p>
+}
+
+
+      <div class="timeline-parcours">
          <div class="container-info">
             <div class="timeline-section-tl">
                <div class="parcours-box parc1">
@@ -631,4 +636,4 @@
          if(reste_a_faire())
             console.log('rien n\'est fait');
          
-      </script> *@
+      </script>

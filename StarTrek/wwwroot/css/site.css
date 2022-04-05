@@ -21,10 +21,7 @@ a.navbar-brand {
   font-family: 'Acme', sans-serif;
   font-family: 'Antonio', sans-serif;
 }
-.theEnd {
-  background-color: black;
-  color: #fe9935
-}
+
 
 /* Provide sufficient contrast against white background */
 a {
@@ -139,6 +136,8 @@ body {
   height:auto;
   min-height:187px;
   width: 7725px;
+  font-family: 'Acme', sans-serif;
+  font-family: 'Antonio', sans-serif;
 }
 .timeline-section-tl {
   width: 150px;
@@ -157,10 +156,11 @@ body {
   display:inline-block;
   margin:0px 1px;
   /* background-image: url("https://cdn.wallpapersafari.com/69/28/wnyVST.jpg"); */
-  background-image: url("https://cdn.wallpapersafari.com/0/47/j0wvM1.gif");
+  background-image: url("https://cdn.hackaday.io/files/11126476014784/lcars2.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: top left;
+  /* background-position: left; */
 }
 .fleche-bloc {
   width: 0;
@@ -255,11 +255,19 @@ transition: all 1s ease;
 }
 
 h3 {
-  margin-top: 5px;
+  margin-top: 40px;
   margin-left: 40px;
-  background-color: #986699;
+  background-color: rgb(192, 99, 157);
   border-radius: 25px;
   text-align: center;
   padding: 1px;
+  color: #f70 ;
+}
+
+p {
+  margin-left: 23px;
+  background-color: #f83;
+  text-align: center;
+  border-radius: 15px;
 }
 

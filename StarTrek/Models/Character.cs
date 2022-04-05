@@ -1,58 +1,39 @@
-using System.Collections.Generic;
-using System;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
+// using System.Collections.Generic;
+// using System;
+// using Newtonsoft.Json;
+// using Newtonsoft.Json.Linq;
 
-namespace StarTrek.Models
-{
-  public class Character
-  {
-    public int CharacterId { get; set; }
-    public string Name { get; set; }
-    public string Bio { get; set; }
+// namespace StarTrek.Models
+// {
+//   public class Character
+//   {
+//     public int CharacterId { get; set; }
+//     public string Name { get; set; }
+//     public string Bio { get; set; }
 
-    public static List<Character> GetCharacter()
-    {
-      var apiCallTask = ApiHelper.GetAll();
+//     public static List<Character> GetCharacter()
+//     {
+//       var apiCallTask = ApiHelper.GetAll();
 
-      var result = apiCallTask.Result;
+//       var result = apiCallTask.Result;
 
-      JArray jsonResponse = JsonConvert.DeserializeObject<JArray>(result);
+//       JArray jsonResponse = JsonConvert.DeserializeObject<JArray>(result);
 
-      List<Character> trekInfo = JsonConvert.DeserializeObject<List<Character>>(jsonResponse.ToString());
+//       List<Character> trekInfo = JsonConvert.DeserializeObject<List<Character>>(jsonResponse.ToString());
 
-      return trekInfo;
-    }
-    public static Character Details(int id)
-    {
-      var apiCallTask = ApiHelper.Get(id);
+//       return trekInfo;
+//     }
+//     public static Character Details(int id)
+//     {
+//       var apiCallTask = ApiHelper.Get(id);
 
-      var result = apiCallTask.Result;
+//       var result = apiCallTask.Result;
 
-      JObject jsonresponse = JsonConvert.DeserializeObject<JObject>(result);
+//       JObject jsonresponse = JsonConvert.DeserializeObject<JObject>(result);
 
-      Character character = JsonConvert.DeserializeObject<Character>(jsonresponse.ToString());
+//       Character character = JsonConvert.DeserializeObject<Character>(jsonresponse.ToString());
 
-      return character;
-    }
-
-    public static void Post(Character character)
-    {
-      string jsonCharacter = JsonConvert.SerializeObject(character);
-
-      var apiCallTask = ApiHelper.Post(jsonCharacter);
-    }
-
-    public static void Put(Character character)
-    {
-      string jsonCharacter = JsonConvert.SerializeObject(character);
-
-      var apiCallTask = ApiHelper.Put(character.CharacterId, jsonCharacter);
-    }
-
-    public static void Delete(int id)
-    {
-      var apiCallTask = ApiHelper.Delete(id);
-    }
-  }
-}
+//       return character;
+//     }
+//   }
+// }

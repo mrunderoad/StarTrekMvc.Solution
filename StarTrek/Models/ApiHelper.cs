@@ -7,44 +7,34 @@ namespace StarTrek.Models
   {
     public static async Task<string> GetAll()
     {
-      RestClient client = new RestClient("http://localhost:5000/api");
-      RestRequest request = new RestRequest($"treks", Method.GET);
+      RestClient client = new RestClient("http://localhost:5002/api");
+      RestRequest request = new RestRequest($"TrekEvent", Method.GET);
       var response = await client.ExecuteTaskAsync(request);
       return response.Content;
     }
 
-    public static async Task<string> Get(int id)
+    public static async Task<string> GetEvent(int id)
     {
-      RestClient client = new RestClient("http://localhost:5000/api");
-      RestRequest request = new RestRequest($"treks/{id}", Method.GET);
+      RestClient client = new RestClient("http://localhost:5002/api");
+      RestRequest request = new RestRequest($"trekevent/{id}", Method.GET);
       var response = await client.ExecuteTaskAsync(request);
       return response.Content;
     }
 
-    public static async Task Post(string newTrek)
+    public static async Task<string> GetAllCharacters()
     {
-      RestClient client = new RestClient("http://localhost:5000/api");
-      RestRequest request = new RestRequest($"treks", Method.POST);
-      request.AddHeader("Content-Type", "application/json");
-      request.AddJsonBody(newTrek);
+      RestClient client = new RestClient("http://localhost:5002/api");
+      RestRequest request = new RestRequest($"characters", Method.GET);
       var response = await client.ExecuteTaskAsync(request);
+      return response.Content;
     }
 
-    public static async Task Put(int id,string newTrek)
+    public static async Task<string> GetCharacter(int id)
     {
-      RestClient client = new RestClient("http://localhost:5000/api");
-      RestRequest request = new RestRequest($"treks/{id}", Method.PUT);
-      request.AddHeader("Content-Type", "application/json");
-      request.AddJsonBody(newTrek);
+      RestClient client = new RestClient("http://localhost:5002/api");
+      RestRequest request = new RestRequest($"characters/{id}", Method.GET);
       var response = await client.ExecuteTaskAsync(request);
-    }
-
-    public static async Task Delete(int id)
-    {
-      RestClient client = new RestClient("http://localhost:5000/api");
-      RestRequest request = new RestRequest($"treks/{id}", Method.DELETE);
-      request.AddHeader("Content-Type", "application/json");
-      var response = await client.ExecuteTaskAsync(request);
+      return response.Content;
     }
   }
 }
