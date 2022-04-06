@@ -36,5 +36,13 @@ namespace StarTrek.Models
       var response = await client.ExecuteTaskAsync(request);
       return response.Content;
     }
+
+     public static async Task<string> GetShips()
+    {
+      RestClient client = new RestClient("http://localhost:5002/api");
+      RestRequest request = new RestRequest($"starships", Method.GET);
+      var response = await client.ExecuteTaskAsync(request);
+      return response.Content;
+    }
   }
 }

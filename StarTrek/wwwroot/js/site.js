@@ -5,7 +5,6 @@
 $( document ).ready(function() {
   $(".parcours-box").removeClass("parcours-active");
     
-  
   $(".round1").on("click",function(){
      $(".tl-round").css("background-color","rgb(85, 69, 69)");
      $(".round1").css("background-color","#cc6698");
@@ -13,17 +12,6 @@ $( document ).ready(function() {
      $(".parc1").addClass("parcours-active");
      $(".timeline-indicator").css("width","5");
   })
-
-  // $(document).keypress(function(){
-  //   if(e.which == 68)
-  //   {
-  //   $(".tl-round").css("background-color","rgb(85, 69, 69)");
-  //   $(".round1").css("background-color","#cc6698");
-  //   $(".parcours-active").removeClass("parcours-active");
-  //   $(".parc1").addClass("parcours-active");
-  //   $(".timeline-indicator").css("width","5");
-  //   }
-  // })
   
   $(".round2").on("click",function(){
      $(".tl-round").css("background-color","rgb(85, 69, 69)");

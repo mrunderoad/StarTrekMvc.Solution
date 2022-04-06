@@ -3,12 +3,11 @@ using StarTrek.Models;
 
 namespace StarTrek.Controllers
 {
-  public class ShipsController : Controller
+  public class FoundersController : Controller
   {
     public IActionResult Index()
     {
-      var ship = Ship.GetAllShips();
-      return View(ship);
+      return View();
     }
   }
 }

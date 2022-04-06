@@ -1,67 +1,21 @@
-<div class="row">
-  <div class="card">
-    <h4>USS Enterprise NCC-1701</h4>
-    <hr />
-    <h6>Captains</h6>
-    <p>Robert April</p>
-    <p>Christopher Pike</p>
-    <p>James T. Kirk</p>
-    <p>Willard Decker</p>
-    <p></p>
-    <h6>Class</h6>
-    <p>Constitution</p>
-    <h6>Length</h6>
-    <p>288.646 meters</p>
-    <h6>Launched</h6>
-    <p>2245</p>
+
+@{
+    ViewData["Title"] = "Ships";
+}
+
+<div class="trekShips">
+@foreach (Ship ship in Model)
+{
+  <div class="row">
+    <div class="card shipCard">
+      <h5 class="shipName"><strong>@ship.ShipModel</strong></h5>
+      <hr />
+      <h6 class="ship">Class: @ship.ShipClass</h6>
+      <h6 class="ship">Captain: @ship.Captain</h6>
+      <h6 class="ship">Launch Year: @ship.Launch</h6>
+      <img class="shipImg" src="@ship.Image" alt="image">
+    </div>
   </div>
-</div>
-<div class="row">
-  <div class="card">
-    <h4>USS Enterprise NCC-1701-A</h4>
-    <hr />
-    <h6>Captain</h6>
-    <p>James T. Kirk</p>
-    <h6>Class</h6>
-    <p>Constitution</p>
-    <h6>Launched</h6>
-    <p>2286</p>
-  </div>
-</div>
-<div class="row">
-  <div class="card">
-    <h4>USS Enterprise NCC-1701-B</h4>
-    <hr />
-    <h6>Captains</h6>
-    <p>John Harriman</p>
-    <p>Demora Sulu</p>
-    <h6>Class</h6>
-    <p>Excelsior</p>
-    <h6>Launched</h6>
-    <p>2293</p>
-  </div>
-</div>
-<div class="row">
-  <div class="card">
-    <h4>USS Enterprise NCC-1701-C</h4>
-    <hr />
-    <h6>Captains</h6>
-    <p>Rachel Garrett</p>
-    <h6>Class</h6>
-    <p>Ambassador</p>
-    <h6>Launched</h6>
-    <p>2332</p>
-  </div>
-</div>
-<div class="row">
-  <div class="card">
-    <h4>USS Enterprise NCC-1701-D</h4>
-    <hr />
-    <h6>Captains</h6>
-    <p>Jean-Luc Picard</p>
-    <h6>Class</h6>
-    <p>Galaxy</p>
-    <h6>Launched</h6>
-    <p>2363</p>
-  </div>
-</div>
+}
+</div> 
+
