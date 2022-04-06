@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Characters";
+}
+
+<div class="trekCharacters">
+@foreach (Character character in Model)
+{
+  <div class="row">
+    <div class="card">
+      <h5><strong>@character.Name</strong></h5>
+      <hr />
+      <h6>@character.Bio</h6>
+      @* <img href="@character.Image"> *@
+    </div>
+  </div>
+}
+</div> 

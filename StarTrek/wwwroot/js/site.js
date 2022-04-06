@@ -117,7 +117,7 @@ $( document ).ready(function() {
     $(".round9").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc9").addClass("parcours-active");
-    $(".timeline-indicator").css("width","1210");
+    $(".timeline-indicator").css("width","1250");
   })
   $(".round10").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -133,7 +133,7 @@ $( document ).ready(function() {
     $(".round10").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc10").addClass("parcours-active");
-    $(".timeline-indicator").css("width","1450");
+    $(".timeline-indicator").css("width","1410");
   })
   $(".round11").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -150,7 +150,7 @@ $( document ).ready(function() {
     $(".round11").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc11").addClass("parcours-active");
-    $(".timeline-indicator").css("width","1600");
+    $(".timeline-indicator").css("width","1570");
   })
   $(".round12").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -168,7 +168,7 @@ $( document ).ready(function() {
     $(".round12").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc12").addClass("parcours-active");
-    $(".timeline-indicator").css("width","1750");
+    $(".timeline-indicator").css("width","1725");
   })
   $(".round13").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -187,7 +187,7 @@ $( document ).ready(function() {
     $(".round13").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc13").addClass("parcours-active");
-    $(".timeline-indicator").css("width","1900");
+    $(".timeline-indicator").css("width","1880");
   })
   $(".round14").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -207,7 +207,7 @@ $( document ).ready(function() {
     $(".round14").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc14").addClass("parcours-active");
-    $(".timeline-indicator").css("width","2050");
+    $(".timeline-indicator").css("width","2025");
   })
   $(".round15").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -228,7 +228,7 @@ $( document ).ready(function() {
     $(".round15").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc15").addClass("parcours-active");
-    $(".timeline-indicator").css("width","2200");
+    $(".timeline-indicator").css("width","2190");
   })
   $(".round16").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -250,7 +250,7 @@ $( document ).ready(function() {
     $(".round16").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc16").addClass("parcours-active");
-    $(".timeline-indicator").css("width","2350");
+    $(".timeline-indicator").css("width","2345");
   })
   $(".round17").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -297,7 +297,7 @@ $( document ).ready(function() {
     $(".round18").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc18").addClass("parcours-active");
-    $(".timeline-indicator").css("width","2650");
+    $(".timeline-indicator").css("width","2655");
   })
   $(".round19").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -322,7 +322,7 @@ $( document ).ready(function() {
     $(".round19").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc19").addClass("parcours-active");
-    $(".timeline-indicator").css("width","2800");
+    $(".timeline-indicator").css("width","2790");
   })
   $(".round20").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -348,7 +348,7 @@ $( document ).ready(function() {
     $(".round20").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc20").addClass("parcours-active");
-    $(".timeline-indicator").css("width","2950");
+    $(".timeline-indicator").css("width","2960");
   })
   $(".round21").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -462,7 +462,7 @@ $( document ).ready(function() {
     $(".round24").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc24").addClass("parcours-active");
-    $(".timeline-indicator").css("width","3550");
+    $(".timeline-indicator").css("width","3555");
   })
   $(".round25").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -493,7 +493,7 @@ $( document ).ready(function() {
     $(".round25").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc25").addClass("parcours-active");
-    $(".timeline-indicator").css("width","3700");
+    $(".timeline-indicator").css("width","3710");
   })
   $(".round26").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -525,7 +525,7 @@ $( document ).ready(function() {
     $(".round26").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc26").addClass("parcours-active");
-    $(".timeline-indicator").css("width","3850");
+    $(".timeline-indicator").css("width","3880");
   })
   $(".round27").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -558,7 +558,7 @@ $( document ).ready(function() {
     $(".round27").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc27").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4000");
+    $(".timeline-indicator").css("width","4015");
   })
   $(".round28").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -592,7 +592,7 @@ $( document ).ready(function() {
     $(".round28").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc28").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4150");
+    $(".timeline-indicator").css("width","4170");
   })
   $(".round29").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -627,7 +627,7 @@ $( document ).ready(function() {
     $(".round29").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc29").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4300");
+    $(".timeline-indicator").css("width","4325");
   })
   $(".round30").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -663,7 +663,7 @@ $( document ).ready(function() {
     $(".round30").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc30").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","4485");
   })
   $(".round31").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -700,7 +700,7 @@ $( document ).ready(function() {
     $(".round31").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc31").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","4635");
   })
   $(".round32").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -738,7 +738,7 @@ $( document ).ready(function() {
     $(".round32").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc32").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","4800");
   })
   $(".round33").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -777,7 +777,7 @@ $( document ).ready(function() {
     $(".round33").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc33").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","4950");
   })
   $(".round34").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -817,7 +817,7 @@ $( document ).ready(function() {
     $(".round34").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc34").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","5100");
   })
   $(".round35").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -858,7 +858,7 @@ $( document ).ready(function() {
     $(".round35").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc35").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","5255");
   })
   $(".round36").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -900,7 +900,7 @@ $( document ).ready(function() {
     $(".round36").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc36").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","5410");
   })
   $(".round37").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -943,7 +943,7 @@ $( document ).ready(function() {
     $(".round37").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc37").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","5565");
   })
   $(".round38").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -987,7 +987,7 @@ $( document ).ready(function() {
     $(".round38").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc38").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","5715");
   })
   $(".round39").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -1032,7 +1032,7 @@ $( document ).ready(function() {
     $(".round39").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc39").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","5870");
   })
   $(".round40").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -1078,7 +1078,7 @@ $( document ).ready(function() {
     $(".round40").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc40").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","6050");
   })
   $(".round41").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -1125,7 +1125,7 @@ $( document ).ready(function() {
     $(".round41").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc41").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","6200");
   })
   $(".round42").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -1173,7 +1173,7 @@ $( document ).ready(function() {
     $(".round42").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc42").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","6335");
   })
   $(".round43").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -1222,7 +1222,7 @@ $( document ).ready(function() {
     $(".round43").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc43").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","6500");
   })
   $(".round44").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -1272,7 +1272,7 @@ $( document ).ready(function() {
     $(".round44").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc44").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","6645");
   })
   $(".round45").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -1323,7 +1323,7 @@ $( document ).ready(function() {
     $(".round45").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc45").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","6800");
   })
   $(".round46").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -1375,7 +1375,7 @@ $( document ).ready(function() {
     $(".round46").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc46").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","6950");
   })
   $(".round47").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -1428,7 +1428,7 @@ $( document ).ready(function() {
     $(".round47").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc47").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","7110");
   })
   $(".round48").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -1482,7 +1482,7 @@ $( document ).ready(function() {
     $(".round48").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc48").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","7285");
   })
   $(".round49").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -1537,7 +1537,7 @@ $( document ).ready(function() {
     $(".round49").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc49").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","7435");
   })
   $(".round50").on("click",function(){
     $(".tl-round").css("background-color","rgb(85, 69, 69)");
@@ -1593,7 +1593,7 @@ $( document ).ready(function() {
     $(".round50").css("background-color","#cc6698");
     $(".parcours-active").removeClass("parcours-active");
     $(".parc50").addClass("parcours-active");
-    $(".timeline-indicator").css("width","4450");
+    $(".timeline-indicator").css("width","7580");
   })
   
 });
