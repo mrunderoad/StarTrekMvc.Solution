@@ -17,7 +17,7 @@ _This application made for c# Team Week at Epicodus is a Star Trek data timeline
 
 ## Description
 
-_A project for Epicodus using C# utilizing an API(`https://github.com/marisa-edgar/StarTrekAPI`). The application is a Star Trek Timeline with dates and info on each date. Allows the user to view listings for Characters or TrekEvents._
+_A project for Epicodus using C# utilizing an API(`https://github.com/mrunderoad/StarTrekAPI`). The application is a Star Trek Timeline with dates and info on each date. Allows the user to view listings for Characters or TrekEvents._
 
 ## Setup/Installation Requirements
 
